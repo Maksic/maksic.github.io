@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test: ЛР01</title>
+  <link rel="stylesheet" href="../assets/fonts.css">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="../assets/darcula.css">
+</head>
+<body>
+
+<section class="header">
+  <div class="header__content">
+    <div class="header__subject">Bug Reports</div>
+    <div class="header__id">ЛР01</div>
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+  Задание делится на 2 типа: на английском и на русском языках. Тем, кто будет выполнять задания и оформлять баги на английском языке, получит +1 балл.
+  <br>
+  Ниже описаны баги от конечных пользователей. Вам необходимо эти баги воспроизвести, определить точные шаги и описать их, учитывая правила оформления. Правила оформления перечислены в презентации, рассказанной вам на лабораторной работе
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+  Дефекты на русском языке: <br>
+  1. <a class="task__link" href="http://25crp.by/" target="_blank">http://25crp.by/</a>: Пользователь выбирает другую локализацию и видит, что текст в поле Поиск не был переведен с русского языка на язык, выбранной локализации. <br>
+  2. <a class="task__link" href="http://25crp.by/" target="_blank">http://25crp.by/</a>: Пользователь открывает О нас –> График работы поликлиники и после переключения на белорусскую локализацию замечает, что оформление меню отличается от русской локализации. <br>
+  3. <a class="task__link" href="http://25crp.by/" target="_blank">http://25crp.by/</a>: Пользователь открывает Услуги –> Административные процедуры (выдача справок), выбирает английскую локализацию и при просмотре страницы замечает проблемы с ее отображением.
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+  Bugs in English: 
+  1. <a class="task__link" href="https://en.belavia.by/" target="_blank">https://en.belavia.by/</a>: User's registering on <a class="task__link" href="https://en.belavia.by" target="_blank">https://en.belavia.by</a> and entered instead of year of birth 0000 and system didn’t react on it. 
+  2. <a class="task__link" href="http://www.25crp.by/" target="_blank">http://www.25crp.by/</a>: User cannot search anything using search field (English locale) 
+  3. <a class="task__link" href="http://www.belarus.by/en/" target="_blank">http://www.belarus.by/en/</a>: user searched for “Grodno region”. In the description to first link in search result he sees characters nbsp;i
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+  Шаги выполнения: <br>
+  1. Зарегистрировать аккаунт в системе GitLab – https://gitlab.com<br><br>
+
+  2. Логинимся в аккаунт. Создаём проект:<br>
+
+  - Указываем Project name, название которого должно соответствовать данному шаблону: имя.фамилия-курс_номергруппы.подгруппа-тема.<br>
+
+  Например: ilya.ivanov-4_7.2-bugs<br>
+
+  - Нажимаем на кнопку Create project<br><br>
+
+  3. Переходим в раздел Settings > Members. В поле GitLab member or Email address пишем username вашего преподавателя. В поле Choose a role permission выбираем Maintainer. Затем нажимаем на кнопку Add to project<br><br>
+
+  4. Переходим в раздел Issues. Нажимаем на кнопку New issue<br><br>
+
+  5. Найденные баги оформляем в полях Title, Description. Assignee, Label. Остальные поля заполнять не нужно.<br><br>
+
+  6. В поле Description должны быть все обязательные поля для бага:<br>
+
+  - Pre-condition (optional)<br>
+
+  - Steps to reproduce<br>
+
+  - Actual Result<br>
+
+  - Expectected Result<br>
+
+  - Environment<br>
+
+  - Severity<br>
+
+  - Priority<br>
+
+  - Screenshot<br>
+
+  - Notes (optional)<br><br>
+
+  7. В поле Assignee указываем username преподавателя, которого вы добавили в 3-ем пункте.<br><br>
+
+  8. Чтобы заполнить поле Labels (=Component), необходимо его создать. В данном поле указывается компонент, в котором был обнаружен дефект.<br>
+
+  Для создания Label нажимаем на поле, а затем Create project label. Указываем название компонента и выбираем любой цвет, затем нажимает кнопку Create. Выбираем созданный Label в баг репорте.<br><br>
+
+  9. После заполнения всех полей, нажимаем на кнопку Submit issue<br>
+
+  После оформления всех найденных багов, вам необходимо отправить на e-mail преподавателя ссылку на проект (слева вверху GitLab-страницы нажимаем на название проекта, копируем ссылку из адресной строки), указав в теме письма имя, фамилию, курс, группу, подгруппу и тему лабораторной работы. Например, Илья Иванов 4к 7/2 – Bug Reports.
+  </div>
+</section>
+
+<section class="task task_extras">
+  <div class="task__statement">
+    Receiver: <span class="task__inline-code">olga.kovalionok@itechart-group.com</span>
+  </div>
+  <div class="task__statement">
+    Example bugs #1-#3:
+    <a class="task__link" target="_blank" href="https://gitlab.com/Maksic1/maksim.karpovich-4_5.2-bugs/issues?page=2&state=opened">Issues</a>
+  </div>
+</section>
+
+<section class="solution">
+  <pre><code class="javascript"></code></pre>
+</section>
+
+<script src="../assets/jquery-3.2.1.min.js"></script>
+<script src="../assets/highlight.pack.js"></script>
+<script src="../assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test: ЛР04</title>
+  <link rel="stylesheet" href="../assets/fonts.css">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="../assets/darcula.css">
+</head>
+<body>
+
+<section class="header">
+  <div class="header__content">
+    <div class="header__subject">Positive test</div>
+    <div class="header__id">ЛР04</div>
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+  	Сайт для тестирования: <a class="task__link" target="_blank" href="https://en.belavia.by/">Belavia.by</a><br>
+    Форма, которую нужно протестировать: Book Flights
+    <img src="https://i.ibb.co/cXcdvpy/2019-11-29-9-19-05.png">
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+  Ваша задача - написать только позитивные проверки этой формы. Это значит, что любые проверки, которые вызывают сообщение об ошибке, или выдают результат:<br>
+  Unfortunately, no available flights could be found. Please try to modify your search.<br>
+  относятся к негативному тестированию. Позитивные проверки должны выдавать какой-то результат (например, при выборе даты > она выбирается, при нажатии на кнопку “+” > в поле Passengers, на 1 взрослого становится больше, и т.д.).<br>
+  Тестировать нужно все: от момента, когда по клику на поле From или To или кнопку Search раскрывается форма, дальше функции формы, до закрытия формы на кнопку “X”.<br>
+  Чекбокс Redeem Points будет фигурировать только в негативных проверках, потому что для их использования надо: 1 – быть залогиненным в систему, 2 – иметь баллы, которые зарабатываются полетами с компанией Belavia. Поэтому это не входит в список ваших проверок на данный момент.
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+    <b>Оформление:</b><br>
+    Как оформлять проверки:<br>
+    ● Нужно создать Excel документ с именем positive_testing_<имя>_<фамилия>.xlsx<br>
+    ● В документе нужно сделать таблицу с тремя колонками: ID; Verification; Expected result.<br>
+    ● Вколонку «Verification» записывается действие, которое нужно выполнить (например, “Click the dropdown From).<br>
+    ● В колонку «xpected result» записывается полученный результат (например, «The form Book Flights» is expanded).<br>
+    ● Проверки должны быть разделены на смысловые части (по названию элементов<br>
+    <img src="https://i.ibb.co/0sqSDkN/2019-11-29-9-35-38.png"><br>
+    Баги, если вы таковые найдете, в систему в рамках данного задания вносить не нужно.
+  </div>
+</section>
+
+<section class="task task_extras">
+  <div class="task__statement">
+    Receiver: <span class="task__inline-code">olga.kovalionok@itechart-group.com</span>
+  </div>
+  <div class="task__statement">
+    Example: <a class="task__link" target="_blank" href="https://drive.google.com/open?id=0B-0lUcejKd3HSlMtcDZqbF9ueGpRajdBNkVHY0pwbl9lbUg0">Positive test</a>
+  </div>
+</section>
+
+<section class="solution">
+  <pre><code class="javascript"></code></pre>
+</section>
+
+<script src="../assets/jquery-3.2.1.min.js"></script>
+<script src="../assets/highlight.pack.js"></script>
+<script src="../assets/script.js"></script>
+</body>
+</html>
