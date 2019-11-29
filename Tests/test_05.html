@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test: ЛР05</title>
+  <link rel="stylesheet" href="../assets/fonts.css">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="../assets/darcula.css">
+</head>
+<body>
+
+<section class="header">
+  <div class="header__content">
+    <div class="header__subject">Negative testing</div>
+    <div class="header__id">ЛР05</div>
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+    Студентам надо будет написать проверки по негативному тестированию, провести его (в Google Chrome) и занести баги. В итоге за лабораторную работу студент получит две оценки:<br>
+    1. За проверки<br>
+    2. За баги<br>
+  	Сайт для тестирования: <a class="task__link" target="_blank" href="https://en.belavia.by/">Belavia.by</a><br>
+    Форма, которую нужно протестировать: Book Flights
+    <img src="https://i.ibb.co/cXcdvpy/2019-11-29-9-19-05.png">
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+  Баги: оформляются в той же системе (форме), как и в лабораторной работе №2 «Баг репорты».<br>
+  Assignee = преподаватель занятия по Негативному тестированию.<br>
+  Если баг не относится к негативному тестированию, он не оценивается.<br>
+  Нужно написать только негативные проверки этой формы. Это проверки, показывающие, что система корректно обрабатывает недопустимые действия пользователя. Обратите внимание, что проверки в этом тестировании становятся сложнее. Они не привязаны только к одному полю. Поля на форме Book Flights взаимозависимые. Поэтому чтобы провести негативное тестирование, не достаточно одного действия. Нужно выполнить несколько действий.
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+    <b>Как оформлять проверки:</b><br>
+  · Нужно создать Excel документ с именем negative_testing_<имя>_<фамилия>.xlsx<br>
+  · В документе нужно сделать таблицу с четырьмя колонками: ID; Verification; Expected result. Status.<br>
+  · В колонку «Verification» записывается действие, которое нужно выполнить (нумерованным списком, как в описании шагов для воспроизведения бага).<br>
+  · В колонку «Expected result» записывается полученный результат (как и в прошлый раз).<br>
+  · В колонку «Status» нужно вписать passed – если при тестировании полученный результат совпал с ожидаемым. Если полученный результат с ожидаемым не совпал, то надо написать failed, и написать ID бага.<br><br>
+  <b>При оценке учитывается:</b><br>
+  1. Количество проверок – не менее 9.<br>
+  2. Корректное оформление.<br>
+  3. Найдены ли баги. 
+  4. Правильное определение проверки – позитивные проверки заносить не нужно.<br> 
+  5. Оформление на английском языке. <br>
+  6. Сдача работы вовремя.
+  </div>
+</section>
+
+<section class="task task_extras">
+  <div class="task__statement">
+    Receiver: <span class="task__inline-code">otymonyuk@gmail.com</span>
+  </div>
+  <div class="task__statement">
+    Example: <a class="task__link" target="_blank" href="https://drive.google.com/open?id=0B-0lUcejKd3HTWloeFBRWnRWdmYzdXRVamlQakhzbjF3VE8w">Negative test</a>
+  </div>
+  <div class="task__statement">
+    Example bugs: #15-#18
+    <a class="task__link" target="_blank" href="https://gitlab.com/Maksic1/maksim.karpovich-4_5.2-bugs/issues?page=2&state=opened">Issues</a>
+  </div>
+</section>
+
+<section class="solution">
+  <pre><code class="javascript"></code></pre>
+</section>
+
+<script src="../assets/jquery-3.2.1.min.js"></script>
+<script src="../assets/highlight.pack.js"></script>
+<script src="../assets/script.js"></script>
+</body>
+</html>
