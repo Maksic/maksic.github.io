@@ -17,3 +17,19 @@
 [Test/03 - Test levels](maksic.github.io/Tests/test_03.html) 
 
 [Test/04 - Positive test](maksic.github.io/Tests/test_04.html)
+
+[Test/05 - Negative testing](maksic.github.io/Tests/test_05.html)
+
+[Test/06 - Test charter](maksic.github.io/Tests/test_06.html) 
+
+[Test/07 - Requirements testing](maksic.github.io/Tests/test_07.html) 
+
+[Test/08 - Cross Browsing testing](maksic.github.io/Tests/test_08.html)
+
+[Test/09 - Automation testing](maksic.github.io/Tests/test_09.html)
+
+[Test/10 - Security testing](maksic.github.io/Tests/test_10.html) 
+
+[Test/11 - Traceability Matrix](maksic.github.io/Tests/test_11.html) 
+
+[Test/12 - Boundary Values](maksic.github.io/Tests/test_12.html)

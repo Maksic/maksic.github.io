@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CMS Apex: ЛР03</title>
+  <link rel="stylesheet" href="../assets/fonts.css">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="../assets/darcula.css">
+</head>
+<body>
+
+<section class="header">
+  <div class="header__content">
+    <div class="header__subject">Apex</div>
+    <div class="header__id">ЛР03</div>
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+  Для создания приложения активизируйте App Builder. Затем:<br>
+  1. Щелкните по кнопке Create >. Появится мастер создания приложения (Create an Application).<br>
+  2. Выберите New Application и нажмите Next>.<br>
+  3. В окне настройки приложения:<br>
+  1) Name – введите имя, например, торговой корпорации, соответствующее Вашей фамилии в транслитерации.<br>
+  2) Settings – оставьте автоматически сгенерированное значение (это уникальный идентификатор приложения, с которым работает система и который помогает пользователю сориентироваться).<br>
+  3) Features - обеспечивают функциональность на уровне приложений и обычно добавляются один раз для каждого приложения.<br>
+  Далее добавьте страницы в приложение. Для этого:<br>
+  1. В пункте Pages кликните Add Page;<br>
+  2. В раскрывшемся окне – оставьте значение по умолчанию – Blank.<br>
+  3. В окне Add Blank Page, Page Name – введите Главная.<br>
+  4. Во пункте Advanced назначьте страницу Set as Home Page. Щелкните по кнопке Add Page. Созданная страница появилась в списке страниц приложения в верхней секции (Create an Application).<br>
+  Затем добавьте страницы с отчетом по всем таблицам из лабораторной.
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+  Для этого в секции Add Page установите следующее:<br> 
+  1. В раскрывшемся окне – оставьте значение – Report. <br>       
+  2. В окне Add Report Page, Page Name – введите название таблицы, по которой делаете отчет.<br>
+  3. Table or View – выберите таблицу. В списке отображаются все таблицы и представления схемы, с которой ассоциировано приложение.<br>
+  4. Щелкните Add Page. Страницы, перечисленные в секции Create an Application, отображают иерархию страниц в приложении.<br>
+  ​Проделайте эти действия для всех страниц из предыдущей лабораторной.<br>
+  Далее можно изменять имена страниц, установленных по умолчанию:<br>
+  1. В строке записи страницы, справа кликните Edit.<br>
+  2. В появившемся окне измените Page Name.<br>
+  3. Щелкните Save Changes.<br>
+  4. В секции Create an Application отобразятся изменения.<br>
+  Теперь все, что остается сделать – это создание приложения. Внизу кликаем по кнопке Create Application.<br>
+  После добавления страниц необходимо определить некоторые параметры уровня приложения:<br>
+  1. На странице созданного приложения заходим в Shared Components.<br>
+  2. Далее переходим в Globalization> Globalization Attributes:<br>
+  1) Authentication Scheme оставьте Application Express.<br>
+  2) Application Primary Language – выберите Russian (ru).<br>
+  3) Application Date Format – введите маску DD.MON.YYYY,щелкните Apply Changes.<br>
+  3. На вкладке User Interface находим пункт Themes и переходим по нему.<br>
+  4. Справа в sidebar’e в Tasks ищем Change Identification Number<br>
+  5. Установите значение темы – 121 и сохраните изменения.<br>
+  Созданные страницы по умолчанию отображаются в виде иконок на странице приложения в App Builder. Обратите внимание, что Oracle APEX автоматически добавил в приложение страницу Login.<br>
+  Чтобы просмотреть приложение, необходимо запустить его. APEX на основе данных, сохраненных в БД, динамически визуализирует приложение в виде HTML страниц.<br>
+  Запустить приложение можно, щелкнув по иконке Run application на домашней странице приложения (вкладка App Builder).<br>
+  Также обратите внимание на панель инструментов разработчика внизу страницы. Данные ссылки появляются, когда приложение запускается в среде разработки.
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+  Добавьте для одной из таблиц форму вставку данных со страницы.
+  <div class="task__statement task__statement_note">
+    Создаем стриницу с типом форма
+  </div>
+  </div>
+</section>
+
+<section class="solution">
+  <pre><code class="javascript"></code></pre>
+</section>
+
+<script src="../assets/jquery-3.2.1.min.js"></script>
+<script src="../assets/highlight.pack.js"></script>
+<script src="../assets/script.js"></script>
+</body>
+</html>
