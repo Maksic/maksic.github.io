@@ -1,5 +1,16 @@
 ## Laboratory POIT
 
+#### DIS
+[DIS/01 - IDEF-01](maksic.github.io/DIS/dis_01.html)
+
+[DIS/02 - UML-02](maksic.github.io/DIS/dis_02.html)
+
+[DIS/03 - UML-03](maksic.github.io/DIS/dis_03.html)
+
+[DIS/04 - UML-04](maksic.github.io/DIS/dis_04.html)
+
+[DIS/05 - UML-04](maksic.github.io/DIS/dis_05.html)
+
 #### CMS
 [CMS/Drupal/01 - Drupal-01](maksic.github.io/Drupal/drupal_01.html)
 
