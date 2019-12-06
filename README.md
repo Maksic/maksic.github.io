@@ -50,3 +50,5 @@
 [Test/11 - Traceability Matrix](https://maksic.github.io/Tests/test_11.html) 
 
 [Test/12 - Boundary Values](https://maksic.github.io/Tests/test_12.html)
+
+[Test/13 - Test Cases](https://maksic.github.io/Tests/test_13.html)
