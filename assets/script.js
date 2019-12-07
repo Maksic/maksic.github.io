@@ -28,6 +28,7 @@ $(function () {
   });
 
   solution.append(`  console.log('Congratulations!');<br>`);
+  solution.append(`  if (wantToBackMainPage) console.log('<a class="task__link" href="https://maksic.github.io">Click here</a>');<br>`);
   solution.append(`})();`);
 
   hljs.highlightBlock(solution[0]);
