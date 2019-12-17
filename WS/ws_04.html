@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153620444-1');
+</script>
+<head>
+  <meta charset="UTF-8">
+  <title>WS: ЛР04</title>
+  <link rel="stylesheet" href="../assets/fonts.css">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="../assets/darcula.css">
+</head>
+<body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153620444-1"></script>
+
+<section class="header">
+  <div class="header__content">
+    <div class="header__subject">SOAP Service</div>
+    <div class="header__id">ЛР04 (4 hours)</div>
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+1. Разработайте ASMX-сервис с именем <b>Simplex</b> помощью технологии ASP.NET.<br>
+2. Найдите на сайте W3C описание  стандарта WSDL.<br>
+3. Найдите на сайте W3C описание протоколов SOAP 1.1, SOAP 1.2.<br>
+4. Установите для ASMX-сервиса собственное пространство имен http://XYZ/, где XYZ – ваши инициалы.<br>
+5. ASMX-сервис <b>Simplex</b> включает в себя следующие три метода.<br>
+<img src="https://i.ibb.co/Lh8CTgD/2019-12-17-20-51-28.png" alt="2019-12-17-20-51-28" border="0"><br>
+6. Для класса ASM-сервиса <b>Simplex</b> определите параметр  <b>Description</b> атрибута <b>WebService</b>. Поясните его назначение.  <br>
+7. Для каждого метода ASM-сервиса определите параметр  <b>Description</b> атрибута <b>WebMethod</b>. Поясните его назначение.  <br>
+8. Для каждого метода ASM-сервиса <b>Simplex</b> определите параметр  <b>MessageName</b> атрибута <b>WebMethod</b>. Поясните его назначение.  <br>
+9. Подключитесь с помощью браузера к ASMX-сервису <b>Simplex</b>.<br>
+10. Проверьте работоспособность методов <b>Add</b> и <b>Concat</b> c
+помощью стандартной web-формы описания ASMX-сервиса <b>Simplex</b>.  <br>
+11. Для проверки работоспособности метода <b>Sum</b> ASMX-сервиса <b>Simplex</b> разработайте WinForm-приложение. Используя объект <b>Request</b> в методе <b>Sum</b> ASMX-сервиса, продемонстрируйте и исследуйте содержимое тела запроса, пришедшего от клиента.  <br>
+12. Исследуйте WSDL-описание (отображается в браузере), ASMX-сервиса <b>Simplex</b> и укажите:<br>
+- где применяется собственное пространство имен;<br>
+- описание типов данных для всех методов сервиса;<br>
+- описание входных и выходных сообщений всех методов сервиса;<br>
+- описание методов сервиса;<br>
+- описание протоколов обмена данных;<br>
+- описание сервиса.<br>
+13. Ознакомьтесь со структурой http-запросов для доступа к ASMX-сервису <b>Simplex</b> (отображается на стандартной web-форме в браузере).<br>
+14. С помощью приложения <b>POSTMAN</b> выполните два  типа запросов (SOAP 1.2, HTTP POST) к ASMX-сервису <b>Simplex</b> и убедитесь в их работоспособности.<br>
+15. Разработайте WinForm-приложение. С помощью утилиты WSDL.EXE сгенерируйте proxy-класс. Продемонстрируйте его работоспособность в отдельном приложении.<br>
+16. Разработайте WebForm-приложение. С помощью утилиты WSDL.EXE сгенерируйте класс для отдельного ASMX-сервиса. Продемонстрируйте его работоспособность.<br>
+17. Создайте в ASMX-сервисе <b>Simplex</b> дополнительный метод <b>AddS</b>. Метод <b>AddS</b> аналогичен методу <b>Add</b>, но предназначен для вызова с помощью AJAX-запроса, отправляющего и принимающего сообщения в формате JSON.<br>
+18. Разработайте ASP.NET-приложение, применяющее AJAX-запрос (jQuery) и демонстрирующее работоспособность метода <b>AddS</b> ASMX-сервиса <b>Simplex</b>.
+    </div>
+  </div>
+</section>
+
+
+<section class="task task_extras">
+  <div class="task__statement">
+    Example: <a class="task__link" target="_blank" href="https://github.com/andreichayeuski/PWS">Here</a> and <a class="task__link" target="_blank" href="https://github.com/dima-shm/ASP.NET-2">here</a> 
+  </div>
+</section>
+
+<section class="solution">
+  <pre><code class="javascript"></code></pre>
+</section>
+
+<script src="../assets/jquery-3.2.1.min.js"></script>
+<script src="../assets/highlight.pack.js"></script>
+<script src="../assets/script.js"></script>
+</body>
+</html>

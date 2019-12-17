@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153620444-1');
+</script>
+<head>
+  <meta charset="UTF-8">
+  <title>WS: ЛР06</title>
+  <link rel="stylesheet" href="../assets/fonts.css">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="../assets/darcula.css">
+</head>
+<body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153620444-1"></script>
+
+<section class="header">
+  <div class="header__content">
+    <div class="header__subject">WCF Data Service</div>
+    <div class="header__id">ЛР06 (4 hours)</div>
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+1. Используйте следующее подключение к серверу баз данных Microsoft SQL Server 2012.<br>
+<b>Server: W2012SQL2012B (172.16.193.89/172.16.0.89)</b><br>
+<b>Login: WS</b><br>
+<b>Password: ws</b><br>
+2. Создайте базу данных с именем <b>WSXXX</b>, где XXX – инициалы студента. Можно создать 1 базу данных на троих студентов.<br>  
+3. Создайте таблицы  соответствующие  следующей диаграмме.<br>
+<img src="https://i.ibb.co/WVvCgdy/2019-12-17-21-16-04.png" alt="2019-12-17-21-16-04" border="0"><br>
+4. Заполните таблицы базы данных (3 студента по 3 дисциплины с оценками).<br>  
+5. Создайте приложение ASP.NET MVC. Создайте EDM-модель над базой данных <b>WSXXX</b>.<br>
+6. Создайте службу <b>WCF Data Service</b> с применением EDM-модели.<br>
+7. Продемонстрируйте работоспособность сервиса с помощью браузера (выбор списка, выбор по primary key, orderby, select, filter).<br>
+8. Разработайте программу клиента (в любой форме), демонстрирующего работу с сервисом.<br>  
+ <br>
+<b>Для самостоятельного изучения</b><br>
+9. Разработайте службу <b>WCF Data Service</b> помощью которой можно добавлять/изменять данные в таблицу базы данных. Продемонстрируйте ее работоспособность.<br>
+10.  <a class="task__link" target="_blank" href="https://msdn.microsoft.com/ru-ru/library/cc668792(v=vs.110).aspx">WCF Data Services 4.5</a><br><br>
+<div class="task__statement task__statement_note">
+https://localhost:44357/WcfDataService1.svc/Notes?$orderby=Subj&$filter=(Note1%20gt%205)<br>
+Пример запроса из браузера к wcf data service.<br>
+Запрос GET, content-type - application/atom-xml, лучше показывать из POSTMAN, приятнее выглядит<br>
+Wcf data service шаблон перестал поддерживаться после visual studio 2015, поэтому надо доустанавливать <br>
+Два расширения для вижлы: "WCF Data Services Template for VS 2017 and above" и "Unchase OData Connected Services"<br>
+Подключать сервис надо через "добавить подключённую службу" (будет красивое окошечко, где надо выбрать Unchase OData)
+  </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="task task_extras">
+  <div class="task__statement">
+    Example: <a class="task__link" target="_blank" href="https://github.com/andreichayeuski/PWS">Here</a> and <a class="task__link" target="_blank" href="https://github.com/dima-shm/ASP.NET-2">here</a> 
+  </div>
+</section>
+
+<section class="solution">
+  <pre><code class="javascript"></code></pre>
+</section>
+
+<script src="../assets/jquery-3.2.1.min.js"></script>
+<script src="../assets/highlight.pack.js"></script>
+<script src="../assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153620444-1');
+</script>
+<head>
+  <meta charset="UTF-8">
+  <title>WS: ЛР01</title>
+  <link rel="stylesheet" href="../assets/fonts.css">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="../assets/darcula.css">
+</head>
+<body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153620444-1"></script>
+
+<section class="header">
+  <div class="header__content">
+    <div class="header__subject">HTTP Handler</div>
+    <div class="header__id">ЛР01 (2 hours)</div>
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+1. Разработайте ASP.NET HTTP-обработчик, обладающий следующими свойствами.<br>
+2. Сервис предназначен для обработки GET, PUT, POST, DELETE HTTP-запросов  к ресурсу *.XXX, где XXX-инициалы студента.<br>
+3. На GET-запрос HTTP-обработчик возвращает JSON-сообщение, содержащее значение <b>RESULT</b>.<br>
+4. Первоначальное значение RESULT = 0 (целочисленный нуль).<br>
+5. POST-запрос позволяет изменить значение <b>RESULT</b> на значение заданное параметром запроса с именем  <b>RESULT</b>.<br>
+6. PUT-запрос позволяет выполнить PUSH-операцию для стека поддерживаемого HTTP-обработчиком в рамках сессии. Добавляемое целочисленное значение пересылается параметром с именем <b>ADD.</b><br>
+7. Первоначально стек является пустым.<br>
+8. DELETE-запрос выполняет POP-операцию для стека.<br>
+9. В общем случае значение <b>RESULT</b> формируется как сумма текущего значения <b>RESULТ</b> и верхнего элемента стека.<br>
+10. Конечная реализация HTTP-обработчика должна содержать только два файла: DLL, webconfig.<br>
+11. Опубликуйте приложение на IIS-сервере.<br>
+12. Разработайте web-приложение демонстрирующего работу разработанного REST-сервиса.       
+    </div>
+  </div>
+</section>
+
+
+<section class="task task_extras">
+  <div class="task__statement">
+    Example: <a class="task__link" target="_blank" href="https://github.com/andreichayeuski/PWS">Here</a> and <a class="task__link" target="_blank" href="https://github.com/dima-shm/ASP.NET-2">here</a> 
+  </div>
+</section>
+
+<section class="solution">
+  <pre><code class="javascript"></code></pre>
+</section>
+
+<script src="../assets/jquery-3.2.1.min.js"></script>
+<script src="../assets/highlight.pack.js"></script>
+<script src="../assets/script.js"></script>
+</body>
+</html>

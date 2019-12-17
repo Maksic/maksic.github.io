@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153620444-1');
+</script>
+<head>
+  <meta charset="UTF-8">
+  <title>WS: ЛР03</title>
+  <link rel="stylesheet" href="../assets/fonts.css">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="../assets/darcula.css">
+</head>
+<body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153620444-1"></script>
+
+<section class="header">
+  <div class="header__content">
+    <div class="header__subject">REST ASP.NET MVC WEB API + HATEOS</div>
+    <div class="header__id">ЛР03 (6 hours)</div>
+  </div>
+</section>
+
+<section class="task">
+  <div class="task__statement">
+1. Разработайте REST-сервис на основе технологии ASP.NET WEB API.<br>
+2. Сервис (RESTFUL) предназначен для обработки GET, PUT, POST, DELETE HTTP-запросов.<br>
+3. Сервис предназначен для  работы со списком студентов.<br>
+4. Каждый элемент списка содержит следующую информацию:<br>
+- идентификатор студента (ID);<br>
+- фамилия, имя и отчество студента (NAME);<br>
+- телефонный номер (PHONE).<br>
+5. Для хранения списка использовать базу данных. СУБД может быть любая, с учетом того, что сервис надо будет устанавливать на сервер.<br>
+6. Сервис поддерживает два типа ресурса: список (студентов) и элемент списка(студент).<br>
+7. Сервис поддерживает два формата ответов: JSON и XML. По умолчанию ответ в формате JSON. Формат указывается с помощью расширения в URI запроса.  
+8. Сервис возвращает 2 статуса: 200 – успешное выполнение, 400 – ошибка. В случае ошибки, статус уточняется кодом ошибки. Ответ с ошибкой поддерживает HATEOS для доступа к ресурсу для получения подробного описания ошибки.  <br>
+9. Запросы к списку поддерживают параметры:               limit – максимальное количество, возвращаемых элементов списка; sort – для сортировки по NAME; offset – смещение в списке (если не указан sort - автоматическая сортировка по ID, если указан, то по NAME), для постраничного вывода,.<br>
+10. Запросы к списку поддерживают параметры для фильтрации: minid – минимальный идентификатор, maxid – максимальный идентификатор; like – шаблон по полю NAME.         <br>                   
+11. Запросы  к списку поддерживают параметр для указания полей элементов выводимого списка: columns; например: columns=ID, PHOHE. По умолчанию выводятся все поля элементов.<br>
+12. Запросы  к списку поддерживают параметр для глобального поиска: globalike – like-шаблон для строк с конкатенации ID, NAME, PHONE.<br>
+13. Для управления состоянием сервис поддерживает HATEOS.<br>
+14. Разработайте web-приложение, позволяющее поддерживать список студентов и применяющее HATEOS.  <br>
+15. Установите сервис и web-приложение на сервер.  
+    </div>
+  </div>
+</section>
+
+
+<section class="task task_extras">
+  <div class="task__statement">
+    Example: <a class="task__link" target="_blank" href="https://github.com/andreichayeuski/PWS">Here</a> and <a class="task__link" target="_blank" href="https://github.com/dima-shm/ASP.NET-2">here</a> 
+  </div>
+</section>
+
+<section class="solution">
+  <pre><code class="javascript"></code></pre>
+</section>
+
+<script src="../assets/jquery-3.2.1.min.js"></script>
+<script src="../assets/highlight.pack.js"></script>
+<script src="../assets/script.js"></script>
+</body>
+</html>
