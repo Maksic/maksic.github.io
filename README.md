@@ -1,5 +1,22 @@
 ## Laboratory POIT
 
+#### Web Services
+[Web Services/01 - HTTP Handler](https://maksic.github.io/WS/ws_01.html)
+
+[Web Services/02 - REST ASP.NET MVC WEB API](https://maksic.github.io/WS/ws_02.html)
+
+[Web Services/03 - REST ASP.NET MVC WEB API + HATEOS](https://maksic.github.io/WS/ws_03.html)
+
+[Web Services/04 - SOAP Service](https://maksic.github.io/WS/ws_04.html)
+
+[Web Services/05 - WCF Service](https://maksic.github.io/WS/ws_05.html)
+
+[Web Services/06 - WCF Data Service](https://maksic.github.io/WS/ws_06.html)
+
+[Web Services/07 - WCF Syndication Service + RSS/ATOM](https://maksic.github.io/WS/ws_07.html)
+
+[Web Services/08 - JSON-RPC Service](https://maksic.github.io/WS/ws_08.html)
+
 #### DIS
 [DIS/01 - IDEF-01](https://maksic.github.io/DIS/dis_01.html)
 
