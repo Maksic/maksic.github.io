@@ -54,3 +54,5 @@
 [Test/13 - Test Cases](https://maksic.github.io/Tests/test_13.html)
 
 [Test/14 - Test Scenario](https://maksic.github.io/Tests/test_14.html)
+
+[Test/15 - Test Report](https://maksic.github.io/Tests/test_15.html)
